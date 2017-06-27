@@ -39,7 +39,7 @@ public class KontaktPageTest extends Base {
 
 		kp.formSubmit(uid, sid, mailid, datatext, msginput);
 		
-		System.out.println("done");
+		
 
 	}
 }
