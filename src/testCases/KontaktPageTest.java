@@ -38,6 +38,8 @@ public class KontaktPageTest extends Base {
 		KontaktPage kp = PageFactory.initElements(driver, KontaktPage.class);
 
 		kp.formSubmit(uid, sid, mailid, datatext, msginput);
+		
+		System.out.println("done");
 
 	}
 }
